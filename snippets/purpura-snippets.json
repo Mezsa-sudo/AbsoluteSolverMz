@@ -1,0 +1,18 @@
+{
+  "Función Flecha Púrpura": {
+    "prefix": "fn",
+    "body": [
+      "const ${1:nombreFuncion} = (${2:parametros}) => {",
+      "  $0",
+      "};"
+    ],
+    "description": "Crea una función flecha rápidamente"
+  },
+  "Console Log con estilo": {
+    "prefix": "clg",
+    "body": [
+      "console.log('${1:mensaje}:', ${2:variable});"
+    ],
+    "description": "Autocompletar console.log"
+  }
+}

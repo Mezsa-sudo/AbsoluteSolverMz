@@ -1,0 +1,81 @@
+{
+  "name": "absolutesolvermz",
+  "displayName": "AbsoluteSolverMz",
+  "description": "Tema creado por Mezsa para Visual Studio Code, con paleta púrpura, snippets y sugerencias en línea (Tab).",
+  "version": "0.0.3",
+  "publisher": "Mezsa",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Themes",
+    "Snippets"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AbsoluteSolverMzPurple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/absolutesolvermzpurple-color-theme.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/purpura-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/purpura-snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/purpura-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/purpura-snippets.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/purpura-snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/purpura-snippets.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/purpura-snippets.json"
+      }
+    ],
+    "configuration": {
+      "title": "AbsoluteSolverMz",
+      "properties": {
+        "absolutesolvermz.suggestions.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Activa las sugerencias en línea (se aceptan con Tab)."
+        },
+        "absolutesolvermz.suggestions.imageCount": {
+          "type": "number",
+          "default": 3,
+          "minimum": 2,
+          "maximum": 20,
+          "description": "Cantidad total de imágenes que se sugieren al escribir la primera <img>."
+        },
+        "absolutesolvermz.suggestions.listItemCount": {
+          "type": "number",
+          "default": 3,
+          "minimum": 2,
+          "maximum": 20,
+          "description": "Cantidad de <li> que se sugieren en una lista."
+        }
+      }
+    }
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ]
+}

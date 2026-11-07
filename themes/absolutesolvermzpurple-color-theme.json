@@ -1,0 +1,442 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "AbsoluteSolverMzPurple",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2B2733",
+    "editor.foreground": "#EADFF7",
+    "editorCursor.foreground": "#FACC15",
+    "editor.lineHighlightBackground": "#2F2140",
+    "editor.selectionBackground": "#7500B870",
+    "editor.wordHighlightBackground": "#4D3B6180",
+    "editorLineNumber.foreground": "#7D69A4",
+    "editorLineNumber.activeForeground": "#D62B8A",
+    "editorIndentGuide.background1": "#4D3B6180",
+    "editorIndentGuide.activeBackground1": "#916ACE",
+    "editorBracketHighlight.foreground1": "#CD6FCD",
+    "editorBracketHighlight.foreground2": "#B99CEE",
+    "editorBracketHighlight.foreground3": "#B0A5F4",
+    "editorBracketHighlight.foreground4": "#AD50F9",
+    "editorBracketHighlight.foreground5": "#BE9ABF",
+    "editorBracketHighlight.foreground6": "#D62B8A",
+    "editorGroupHeader.tabsBackground": "#221E2A",
+    "tab.activeBackground": "#2B2733",
+    "tab.inactiveBackground": "#221E2A",
+    "tab.activeForeground": "#B99CEE",
+    "tab.inactiveForeground": "#7D69A4",
+    "tab.activeBorderTop": "#AD50F9",
+    "tab.border": "#221E2A",
+    "panel.background": "#262230",
+    "sideBar.background": "#241F2D",
+    "sideBar.foreground": "#AD50F9",
+    "sideBar.border": "#2F2140",
+    "sideBarTitle.foreground": "#CD6FCD",
+    "sideBarSectionHeader.foreground": "#CD6FCD",
+    "activityBar.background": "#1D1924",
+    "titleBar.activeBackground": "#1D1924",
+    "titleBar.activeForeground": "#B99CEE",
+    "titleBar.inactiveBackground": "#1D1924",
+    "statusBar.background": "#4B2782",
+    "statusBar.foreground": "#F3E8FF",
+    "foreground": "#B99CEE",
+    "descriptionForeground": "#7D69A4",
+    "textLink.foreground": "#AD50F9",
+    "textLink.activeForeground": "#B0A5F4",
+    "textPreformat.foreground": "#CD6FCD",
+    "welcomePage.tileBackground": "#2F2140",
+    "welcomePage.tileHoverBackground": "#4D3B61",
+    "welcomePage.progress.foreground": "#6366F1",
+    "icon.foreground": "#6366F1",
+    "activityBar.foreground": "#6366F1",
+    "activityBar.inactiveForeground": "#4F46E5",
+    "activityBar.activeBorder": "#6366F1",
+    "activityBarBadge.background": "#6366F1",
+    "editorGutter.foldingControlForeground": "#6366F1",
+    "breadcrumb.foreground": "#7D69A4",
+    "breadcrumb.focusForeground": "#B99CEE",
+    "terminal.foreground": "#EADFF7",
+    "button.background": "#7500B8",
+    "button.foreground": "#F3E8FF",
+    "focusBorder": "#6366F1",
+    "list.activeSelectionBackground": "#4D3B61",
+    "list.hoverBackground": "#2F2140",
+    "symbolIcon.classForeground": "#6366F1",
+    "symbolIcon.functionForeground": "#6366F1",
+    "symbolIcon.methodForeground": "#6366F1",
+    "symbolIcon.variableForeground": "#6366F1",
+    "symbolIcon.fieldForeground": "#6366F1",
+    "symbolIcon.moduleForeground": "#6366F1",
+    "symbolIcon.keywordForeground": "#6366F1",
+    "symbolIcon.propertyForeground": "#6366F1",
+    "symbolIcon.constantForeground": "#6366F1",
+    "symbolIcon.interfaceForeground": "#6366F1",
+    "symbolIcon.snippetForeground": "#6366F1",
+    "symbolIcon.fileForeground": "#6366F1",
+    "symbolIcon.folderForeground": "#6366F1",
+    "symbolIcon.enumeratorForeground": "#6366F1",
+    "symbolIcon.structForeground": "#6366F1",
+    "symbolIcon.textForeground": "#6366F1",
+    "symbolIcon.namespaceForeground": "#6366F1",
+    "symbolIcon.packageForeground": "#6366F1",
+    "symbolIcon.typeParameterForeground": "#6366F1"
+  },
+  "tokenColors": [
+    {
+      "name": "Comentarios - Lirio",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#7D69A4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Palabras clave (const, let, def, class, import) - Amatista",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#AD50F9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bucles (for, while, do) - Magenta",
+      "scope": [
+        "keyword.control.loop",
+        "keyword.control.for",
+        "keyword.control.while",
+        "keyword.control.do",
+        "keyword.control.break",
+        "keyword.control.continue",
+        "keyword.control.flow.python",
+        "keyword.operator.expression.in",
+        "keyword.operator.expression.of",
+        "keyword.control.loop.js",
+        "keyword.control.loop.ts"
+      ],
+      "settings": {
+        "foreground": "#D62B8A",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Condicionales y flujo (if, else, return, try) - Bígaro",
+      "scope": [
+        "keyword.control",
+        "keyword.control.conditional",
+        "keyword.control.flow",
+        "keyword.control.trycatch",
+        "keyword.control.switch"
+      ],
+      "settings": {
+        "foreground": "#B0A5F4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Funciones (definición) - Malva",
+      "scope": [
+        "entity.name.function",
+        "meta.definition.function entity.name.function",
+        "support.function.builtin"
+      ],
+      "settings": {
+        "foreground": "#CD6FCD",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Funciones (llamadas) - Malva",
+      "scope": [
+        "support.function",
+        "meta.function-call",
+        "meta.function-call entity.name.function",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#CD6FCD"
+      }
+    },
+    {
+      "name": "Listas / arrays / diccionarios - Wisteria",
+      "scope": [
+        "meta.array",
+        "meta.brace.square",
+        "punctuation.definition.array",
+        "punctuation.definition.list",
+        "punctuation.definition.list.begin",
+        "punctuation.definition.list.end",
+        "meta.structure.array",
+        "meta.structure.dictionary",
+        "punctuation.definition.dict",
+        "punctuation.definition.set",
+        "support.type.python",
+        "support.type.builtin.python",
+        "meta.item-access",
+        "punctuation.definition.arguments",
+        "punctuation.section.brackets",
+        "meta.brackets"
+      ],
+      "settings": {
+        "foreground": "#B99CEE",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#EADFF7"
+      }
+    },
+    {
+      "name": "Parámetros - Wisteria",
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#B99CEE",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Cadenas - Lila",
+      "scope": [
+        "string",
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#BE9ABF"
+      }
+    },
+    {
+      "name": "Números y constantes - Dorado",
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#FACC15",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Clases y tipos - Lavanda",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#916ACE",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Atributos y propiedades - Bígaro",
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.object-literal.key",
+        "variable.other.property",
+        "variable.other.object.property"
+      ],
+      "settings": {
+        "foreground": "#B0A5F4"
+      }
+    },
+    {
+      "name": "Operadores y puntuación - Lavanda",
+      "scope": [
+        "punctuation",
+        "delimiter",
+        "operator",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#916ACE"
+      }
+    },
+    {
+      "name": "Python - decoradores",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "meta.function.decorator.python",
+        "meta.decorator",
+        "punctuation.decorator",
+        "entity.name.function.decorator"
+      ],
+      "settings": {
+        "foreground": "#AD50F9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python - self / cls",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python",
+        "variable.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#B99CEE",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python - def / class / import",
+      "scope": [
+        "storage.type.function.python",
+        "storage.type.class.python",
+        "keyword.control.import.python",
+        "keyword.control.import.from.python"
+      ],
+      "settings": {
+        "foreground": "#AD50F9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Django - plantillas",
+      "scope": [
+        "text.html.django",
+        "meta.tag.template.django",
+        "meta.scope.django.template",
+        "source.django",
+        "keyword.control.django",
+        "entity.name.tag.django",
+        "variable.other.django",
+        "support.function.filter.django",
+        "punctuation.section.embedded.begin.django",
+        "punctuation.section.embedded.end.django"
+      ],
+      "settings": {
+        "foreground": "#AD50F9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Django - ORM y modelos",
+      "scope": [
+        "support.class.django",
+        "support.type.django",
+        "support.function.django",
+        "support.other.django"
+      ],
+      "settings": {
+        "foreground": "#CD6FCD"
+      }
+    },
+    {
+      "name": "Vue - etiquetas",
+      "scope": [
+        "entity.name.tag.vue",
+        "entity.name.tag.template",
+        "entity.name.tag.script",
+        "entity.name.tag.style",
+        "support.class.component.vue"
+      ],
+      "settings": {
+        "foreground": "#AD50F9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue - directivas y atributos",
+      "scope": [
+        "entity.other.attribute-name.vue",
+        "meta.directive.vue",
+        "entity.other.attribute-name.html.vue",
+        "punctuation.attribute-shorthand.bind.html.vue",
+        "punctuation.attribute-shorthand.event.html.vue",
+        "keyword.other.directive",
+        "support.class.component",
+        "meta.tag.custom"
+      ],
+      "settings": {
+        "foreground": "#CD6FCD"
+      }
+    },
+    {
+      "name": "Node.js",
+      "scope": [
+        "support.module.node",
+        "support.type.object.module",
+        "support.variable.object.node",
+        "support.variable.object.process",
+        "support.variable.property.process",
+        "support.type.object.module.js",
+        "support.variable.node",
+        "variable.language.this",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#CD6FCD",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Imports / exports JS-TS",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.default",
+        "meta.import",
+        "meta.export"
+      ],
+      "settings": {
+        "foreground": "#AD50F9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Etiquetas HTML / JSX",
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#AD50F9"
+      }
+    },
+    {
+      "name": "CSS propiedades",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#B0A5F4"
+      }
+    },
+    {
+      "name": "JSON claves",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#B0A5F4"
+      }
+    },
+    {
+      "name": "Markdown títulos",
+      "scope": [
+        "markup.heading",
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#AD50F9",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}
